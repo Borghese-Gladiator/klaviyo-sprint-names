@@ -19,13 +19,12 @@ bun dev
 
 ## Implementation Steps
 - `npx create-next-app@latest .` -> Page Router, no TS, no ESLint
-- fix: jsconfig.json - support for imports
+- fix: `jsconfig.json` - support for imports
 - implement MVP w/ Chakra UI
   - `_app.js` - `ChakraProvider`
   - `index.js`
     - navbar - FAB (floating action button)
       - `npm i lucide-react`
     - `SprintTable.jsx`
-      - hard groupings by year + sort by date
     - `SprintList.jsx`
   - `api/words.js` - JS Constant built by scraping sprint names (copy-pasted HTML and extracted w/ ChatGPT)
