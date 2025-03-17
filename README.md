@@ -28,3 +28,5 @@ bun dev
     - `SprintTable.jsx`
     - `SprintList.jsx`
   - `api/words.js` - JS Constant built by scraping sprint names (copy-pasted HTML and extracted w/ ChatGPT)
+- generated constants via ChatGPT and saved into words
+  - `Given this following code snippet, add items to the array using the topic list. Ensure the dates are 2 weeks apart like in the first example.`...etc.
