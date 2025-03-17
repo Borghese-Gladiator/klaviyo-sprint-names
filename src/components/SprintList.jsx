@@ -20,8 +20,8 @@ export default function SprintTable({ sprintListGroups }) {
                     <Heading size="lg">{date}</Heading>
                     <Heading size="md">{definition}</Heading>
                     <Stack>
-                      {paragraphs.map((paragraph) => (
-                        <Text key={paragraph}>{paragraph}</Text>
+                      {paragraphs.map((paragraph, idx) => (
+                        <Text key={idx}>{paragraph}</Text>
                       ))}
                     </Stack>
                   </Box>

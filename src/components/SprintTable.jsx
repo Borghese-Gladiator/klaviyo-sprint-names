@@ -7,8 +7,8 @@ export default function SprintTable({ sprintListGroups }) {
     <Container maxWidth="2xl">
       {Object.entries(sprintListGroups)
         .sort(([a], [b]) => b.localeCompare(a))
-        .map(([year, sprintList]) => (
-          <Collapsible.Root defaultOpen>
+        .map(([year, sprintList], idx) => (
+          <Collapsible.Root defaultOpen key={`sprint-table-${idx}`}>
             <Collapsible.Trigger>
               <Heading size="2xl">{year}</Heading>
             </Collapsible.Trigger>
@@ -22,8 +22,8 @@ export default function SprintTable({ sprintListGroups }) {
                   </Table.Row>
                 </Table.Header>
                 <Table.Body>
-                  {sprintList.map((item) => (
-                    <Table.Row key={item.id}>
+                  {sprintList.map((item, idx) => (
+                    <Table.Row key={`sprint-row-${idx}`}>
                       <Table.Cell whiteSpace="nowrap">{item.date}</Table.Cell>
                       <Table.Cell>{item.sprintName}</Table.Cell>
                       <Table.Cell>{item.definition}</Table.Cell>
