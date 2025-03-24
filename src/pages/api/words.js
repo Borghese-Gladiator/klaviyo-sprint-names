@@ -37,6 +37,15 @@ const sprintListGroups = {
         "Example usage: His speech was full of flumadiddle, with no real substance.",
         "Etymology: 'Flumadiddle' is a whimsical American slang term that dates back to the 19th century. It likely emerged as a playful combination of sounds meant to evoke absurdity. The word was historically used to describe trivial or nonsensical matters, often in a humorous or dismissive manner. Though not as common today, 'flumadiddle' still appears in regional dialects and nostalgic references to old-fashioned language."
       ]
+    },
+    {
+      date: "01/01 - 01/12",
+      sprintName: "Grilse",
+      definition: "A young salmon, especially one that has just returned from the sea.",
+      paragraphs: [
+        "Example usage: The river was teeming with grilse, their silvery bodies darting through the water.",
+        "Etymology: 'Grilse' originates from Old Norse, specifically from the word 'grilsa', meaning a young salmon. It refers to a salmon that is in its first year after leaving the river and returning as a mature fish. The term has been used in English since the 16th century, primarily in regions where salmon fishing is prominent, like Scotland and Northern England."
+      ]
     }
   ],
   "2024": [
