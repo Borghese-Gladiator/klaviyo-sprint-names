@@ -1,4 +1,15 @@
 // Word API - get list of sprint words + definitions
+/*
+2025 sprint names
+- Hemidemisemiquaver
+- Grilse
+- Flumadiddle
+- Enthymeme
+- Dyad
+- Curmadgeon
+- Brouhaha
+
+*/
 
 const sprintListGroups = {
   "2025": [
@@ -45,6 +56,13 @@ const sprintListGroups = {
       paragraphs: [
         "Example usage: The river was teeming with grilse, their silvery bodies darting through the water.",
         "Etymology: 'Grilse' originates from Old Norse, specifically from the word 'grilsa', meaning a young salmon. It refers to a salmon that is in its first year after leaving the river and returning as a mature fish. The term has been used in English since the 16th century, primarily in regions where salmon fishing is prominent, like Scotland and Northern England."
+      ]
+    },
+    {
+      date: "",
+      sprintName: "Hemidemisemiquaver",
+      definition: "",
+      paragraphs: [
       ]
     }
   ],
