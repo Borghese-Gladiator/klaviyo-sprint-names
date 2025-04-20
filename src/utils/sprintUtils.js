@@ -14,7 +14,8 @@
 export const sprintListGroups = {
   "2025": [
     {
-      date: "01/13 - 01/24",
+      dateStart: new Date("2025-01-13"),
+      dateEnd: new Date("2025-01-24"),
       sprintName: "Brouhaha",
       definition: "A noisy and overexcited reaction or response to something.",
       paragraphs: [
@@ -23,7 +24,8 @@ export const sprintListGroups = {
       ]
     },
     {
-      date: "01/27 - 02/07",
+      dateStart: new Date("2025-01-27"),
+      dateEnd: new Date("2025-02-07"),
       sprintName: "Curmudgeon",
       definition: "A bad-tempered or surly person, especially an old one.",
       paragraphs: [
@@ -32,7 +34,8 @@ export const sprintListGroups = {
       ]
     },
     {
-      date: "02/10 - 02/21",
+      dateStart: new Date("2025-02-10"),
+      dateEnd: new Date("2025-02-21"),
       sprintName: "Dyad",
       definition: "A pair of individuals or things regarded as a unit.",
       paragraphs: [
@@ -41,7 +44,8 @@ export const sprintListGroups = {
       ]
     },
     {
-      date: "02/24 - 03/06",
+      dateStart: new Date("2025-02-24"),
+      dateEnd: new Date("2025-03-06"),
       sprintName: "Flumadiddle",
       definition: "Nonsense or foolishness; something frivolous.",
       paragraphs: [
@@ -50,7 +54,8 @@ export const sprintListGroups = {
       ]
     },
     {
-      date: "03/09 - 03/20",
+      dateStart: new Date("2025-03-09"),
+      dateEnd: new Date("2025-03-20"),
       sprintName: "Grilse",
       definition: "A young salmon, especially one that has just returned from the sea.",
       paragraphs: [
@@ -59,7 +64,8 @@ export const sprintListGroups = {
       ]
     },
     {
-      date: "03/23 - 04/03",
+      dateStart: new Date("2025-03-23"),
+      dateEnd: new Date("2025-04-03"),
       sprintName: "Hemidemisemiquaver",
       definition: "",
       paragraphs: []
@@ -67,7 +73,8 @@ export const sprintListGroups = {
   ],
   "2024": [
     {
-      date: "01/01 - 01/12",
+      dateStart: new Date("2024-01-01"),
+      dateEnd: new Date("2024-01-12"),
       sprintName: "Animal Farm",
       definition: "Animal Farm by George Orwell is an allegorical novella that depicts a group of farm animals who rebel against their human owner, only to find themselves under the rule of a corrupt and tyrannical leadership among their own kind.",
       paragraphs: [
@@ -77,7 +84,8 @@ export const sprintListGroups = {
       ]
     },
     {
-      date: "01/15 - 01/26",
+      dateStart: new Date("2024-01-15"),
+      dateEnd: new Date("2024-01-26"),
       sprintName: "Beowulf",
       definition: "Beowulf is an Old English epic poem that tells the story of a heroic warrior who battles the monster Grendel, Grendel's mother, and a dragon, embodying the values of bravery, loyalty, and honor in Anglo-Saxon culture.",
       paragraphs: [
@@ -87,7 +95,8 @@ export const sprintListGroups = {
       ]
     },
     {
-      date: "01/29 - 02/08",
+      dateStart: new Date("2024-01-29"),
+      dateEnd: new Date("2024-02-08"),
       sprintName: "Catch 22",
       definition: "Catch-22 by Joseph Heller is a satirical novel that critiques bureaucracy and the absurdities of war through the experiences of a U.S. Army Air Force bombardier, Yossarian, who attempts to escape the illogical and self-contradictory regulations of the military.",
       paragraphs: [
@@ -97,7 +106,8 @@ export const sprintListGroups = {
       ]
     },
     {
-      date: "02/11 - 02/22",
+      dateStart: new Date("2024-02-11"),
+      dateEnd: new Date("2024-02-22"),
       sprintName: "Dune",
       definition: "Dune by Frank Herbert is a science fiction novel that explores themes of politics, religion, and ecology through the journey of Paul Atreides, a young nobleman who becomes embroiled in interstellar power struggles over the desert planet Arrakis.",
       paragraphs: [
@@ -107,7 +117,8 @@ export const sprintListGroups = {
       ]
     },
     {
-      date: "02/25 - 03/07",
+      dateStart: new Date("2024-02-25"),
+      dateEnd: new Date("2024-03-07"),
       sprintName: "Eragon",
       definition: "Eragon by Christopher Paolini is a fantasy novel that follows a farm boy who discovers a dragon egg, setting him on a path of adventure, magic, and rebellion against an oppressive empire.",
       paragraphs: [
@@ -117,7 +128,8 @@ export const sprintListGroups = {
       ]
     },
     {
-      date: "03/11 - 03/22",
+      dateStart: new Date("2024-03-11"),
+      dateEnd: new Date("2024-03-22"),
       sprintName: "Freakonomics",
       definition: "Freakonomics by Steven D. Levitt and Stephen J. Dubner explores hidden economic forces and incentives that shape human behavior, using data-driven analysis to challenge conventional wisdom.",
       paragraphs: [
@@ -127,7 +139,8 @@ export const sprintListGroups = {
       ]
     },
     {
-      date: "03/25 - 04/05",
+      dateStart: new Date("2024-03-25"),
+      dateEnd: new Date("2024-04-05"),
       sprintName: "Gideon the Ninth",
       definition: "Gideon the Ninth by Tamsyn Muir is a science fantasy novel that follows a sword-wielding warrior navigating a deadly necromantic competition in a gothic, space-faring universe.",
       paragraphs: [
@@ -137,7 +150,8 @@ export const sprintListGroups = {
       ]
     },
     {
-      date: "04/08 - 04/19",
+      dateStart: new Date("2024-04-08"),
+      dateEnd: new Date("2024-04-19"),
       sprintName: "Hitchhiker’s Guide to the Galaxy",
       definition: "Hitchhiker’s Guide to the Galaxy by Douglas Adams is a comedic science fiction novel that follows an unwitting human traveler, Arthur Dent, on a chaotic adventure through space.",
       paragraphs: [
@@ -147,7 +161,8 @@ export const sprintListGroups = {
       ]
     },
     {
-      date: "04/22 - 05/03",
+      dateStart: new Date("2024-04-22"),
+      dateEnd: new Date("2024-05-03"),
       sprintName: "Kingkiller Chronicles",
       definition: "The Kingkiller Chronicle by Patrick Rothfuss is a fantasy series that follows Kvothe, a gifted musician and magician, as he recounts his rise from poverty to legend.",
       paragraphs: [
@@ -156,7 +171,8 @@ export const sprintListGroups = {
       ]
     },
     {
-      date: "05/06 - 05/17",
+      dateStart: new Date("2024-05-06"),
+      dateEnd: new Date("2024-05-17"),
       sprintName: "The Lorax",
       definition: "The Lorax by Dr. Seuss is a children's book that delivers a powerful environmental message about the consequences of deforestation and corporate greed.",
       paragraphs: [
@@ -166,7 +182,8 @@ export const sprintListGroups = {
       ]
     },
     {
-      date: "05/20 - 05/31",
+      dateStart: new Date("2024-05-20"),
+      dateEnd: new Date("2024-05-31"),
       sprintName: "Mistborn",
       definition: "Mistborn by Brandon Sanderson is a high fantasy novel set in a world where ash falls from the sky, and a group of rebels seeks to overthrow an immortal tyrant using unique metal-based magic.",
       paragraphs: [
@@ -176,7 +193,8 @@ export const sprintListGroups = {
       ]
     },
     {
-      date: "06/03 - 06/14",
+      dateStart: new Date("2024-06-03"),
+      dateEnd: new Date("2024-06-14"),
       sprintName: "Night Watch",
       definition: "Night Watch by Terry Pratchett is a Discworld novel that follows Commander Sam Vimes as he is thrown back in time, forced to relive a revolution while mentoring his younger self.",
       paragraphs: [
@@ -186,7 +204,8 @@ export const sprintListGroups = {
       ]
     },
     {
-      date: "06/17 - 06/28",
+      dateStart: new Date("2024-06-17"),
+      dateEnd: new Date("2024-06-28"),
       sprintName: "Of Mice and Men",
       definition: "Of Mice and Men by John Steinbeck is a novella that explores themes of friendship, dreams, and loss through the story of two migrant workers seeking a better life during the Great Depression.",
       paragraphs: [
@@ -196,7 +215,8 @@ export const sprintListGroups = {
       ]
     },
     {
-      date: "07/01 - 07/12",
+      dateStart: new Date("2024-07-01"),
+      dateEnd: new Date("2024-07-12"),
       sprintName: "Paddington",
       definition: "Paddington by Michael Bond is a beloved children’s book series about a polite and adventurous bear from Peru who finds a home with the Brown family in London.",
       paragraphs: [
@@ -206,7 +226,8 @@ export const sprintListGroups = {
       ]
     },
     {
-      date: "07/15 - 07/26",
+      dateStart: new Date("2024-07-15"),
+      dateEnd: new Date("2024-07-26"),
       sprintName: "Q-in-Law",
       definition: "Q-in-Law by Peter David is a Star Trek novel that explores the chaos that ensues when the omnipotent being Q interferes with a Betazoid wedding.",
       paragraphs: [
@@ -216,7 +237,8 @@ export const sprintListGroups = {
       ]
     },
     {
-      date: "07/29 - 08/09",
+      dateStart: new Date("2024-07-29"),
+      dateEnd: new Date("2024-08-09"),
       sprintName: "Redwall",
       definition: "Redwall by Brian Jacques is a children’s fantasy novel that follows the adventures of the young mouse Matthias as he defends Redwall Abbey from a vicious army of rats.",
       paragraphs: [
@@ -226,7 +248,8 @@ export const sprintListGroups = {
       ]
     },
     {
-      date: "08/12 - 08/23",
+      dateStart: new Date("2024-08-12"),
+      dateEnd: new Date("2024-08-23"),
       sprintName: "Snow Crash",
       definition: "Snow Crash by Neal Stephenson is a cyberpunk novel that explores a futuristic world dominated by virtual reality, corporate states, and a powerful drug-virus hybrid that threatens to upend society.",
       paragraphs: [
@@ -236,7 +259,8 @@ export const sprintListGroups = {
       ]
     },
     {
-      date: "08/26 - 09/06",
+      dateStart: new Date("2024-08-26"),
+      dateEnd: new Date("2024-09-06"),
       sprintName: "To Kill a Mockingbird",
       definition: "To Kill a Mockingbird by Harper Lee is a novel about racial injustice and moral growth in the Deep South, as seen through the eyes of young Scout Finch.",
       paragraphs: [
@@ -246,7 +270,8 @@ export const sprintListGroups = {
       ]
     },
     {
-      date: "09/09 - 09/20",
+      dateStart: new Date("2024-09-09"),
+      dateEnd: new Date("2024-09-20"),
       sprintName: "Unseen Academicals",
       definition: "Unseen Academicals by Terry Pratchett is a comedic fantasy novel set in the Discworld universe, exploring the world of football (soccer) and social class.",
       paragraphs: [
@@ -256,7 +281,8 @@ export const sprintListGroups = {
       ]
     },
     {
-      date: "09/23 - 10/04",
+      dateStart: new Date("2024-09-23"),
+      dateEnd: new Date("2024-10-04"),
       sprintName: "Very Hungry Caterpillar",
       definition: "The Very Hungry Caterpillar by Eric Carle is a beloved children's book that follows the journey of a caterpillar as it transforms into a butterfly.",
       paragraphs: [
@@ -266,7 +292,8 @@ export const sprintListGroups = {
       ]
     },
     {
-      date: "10/07 - 10/18",
+      dateStart: new Date("2024-10-07"),
+      dateEnd: new Date("2024-10-18"),
       sprintName: "Where the Wild Things Are",
       definition: "Where the Wild Things Are by Maurice Sendak is a classic children's book about imagination, adventure, and emotional growth.",
       paragraphs: [
@@ -276,7 +303,8 @@ export const sprintListGroups = {
       ]
     },
     {
-      date: "10/21 - 11/01",
+      dateStart: new Date("2024-10-21"),
+      dateEnd: new Date("2024-11-01"),
       sprintName: "Xanders Panda Party",
       definition: "Xander’s Panda Party by Linda Sue Park is a charming children's book about inclusivity and friendship, centered around a panda’s birthday celebration.",
       paragraphs: [
@@ -286,7 +314,8 @@ export const sprintListGroups = {
       ]
     },
     {
-      date: "11/04 - 11/15",
+      dateStart: new Date("2024-11-04"),
+      dateEnd: new Date("2024-11-15"),
       sprintName: "Yertle the Turtle",
       definition: "Yertle the Turtle by Dr. Seuss is a rhyming fable about power, oppression, and leadership, told through the story of a turtle king who wants to rule higher than all others.",
       paragraphs: [
@@ -296,7 +325,8 @@ export const sprintListGroups = {
       ]
     },
     {
-      date: "11/18 - 11/29",
+      dateStart: new Date("2024-11-18"),
+      dateEnd: new Date("2024-11-29"),
       sprintName: "Zorro",
       definition: "Zorro by Isabel Allende is a historical adventure novel that reimagines the origins of the legendary masked vigilante, blending action with rich historical detail.",
       paragraphs: [
