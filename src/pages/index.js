@@ -6,6 +6,7 @@ import { Github } from "lucide-react";
 
 import SprintList from "@/components/SprintList";
 import SprintTable from "@/components/SprintTable";
+import { sprintListGroups } from "@/utils";
 
 
 //=======================
@@ -35,11 +36,7 @@ const LinkFAB = () => {
 //=======================
 //   API
 //=======================
-export async function getStaticProps() {  
-  console.log("process.env", process.env)
-  console.log("process.env.NEXT_PUBLIC_API_URL", process.env.NEXT_PUBLIC_API_URL)
-  const res = await fetch(`http://${process.env.NEXT_PUBLIC_API_URL}/api/words`);
-  const sprintListGroups = await res.json()
+export async function getStaticProps() {
   return { props: { sprintListGroups } }
 }
 
